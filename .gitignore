@@ -3,6 +3,7 @@ tmp/
 source/extracted.txt
 source/contact*.jpg
 source/image-candidates/
+source/gap-candidates/
 public/data/image-additions.json
 __pycache__/
 *.pyc
