@@ -308,14 +308,28 @@
     "imageKind": "ingredient"
   },
   "sesame seed": {
-    "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
-    "illustrative": true
+    "src": "/images/foods/sesame-seed-verified.jpg",
+    "alt": "Sesame seed — illustrative ingredient photograph",
+    "source": "https://commons.wikimedia.org/wiki/File:Sesame_seeds_1.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "ally j",
+    "description": "Sesame seeds",
+    "illustrative": true,
+    "imageKind": "ingredient",
+    "visuallyVerified": true
   },
   "linseed": {
-    "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
-    "illustrative": true
+    "src": "/images/foods/linseed-verified.jpg",
+    "alt": "Linseed — illustrative ingredient photograph",
+    "source": "https://commons.wikimedia.org/wiki/File:Flax_seeds_(1).jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "Fumikas Sagisavas",
+    "description": "Flax seeds",
+    "illustrative": true,
+    "imageKind": "ingredient",
+    "visuallyVerified": true
   },
   "pumpkin seed": {
     "src": "/images/foods/pumpkin-seed.jpg",
@@ -351,9 +365,16 @@
     "illustrative": true
   },
   "nuts": {
-    "missing": true,
-    "article": "Nut (fruit)",
-    "reason": "No Commons photo and license metadata"
+    "src": "/images/foods/nuts-verified.jpg",
+    "alt": "Nuts — illustrative ingredient photograph",
+    "source": "https://commons.wikimedia.org/wiki/File:Mixed_nuts.jpg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "Wikimedia Commons contributor",
+    "description": "",
+    "illustrative": true,
+    "imageKind": "ingredient",
+    "visuallyVerified": true
   },
   "amaranthus": {
     "src": "/images/foods/amaranthus.jpg",
@@ -433,9 +454,16 @@
     "illustrative": true
   },
   "cassava": {
-    "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
-    "illustrative": true
+    "src": "/images/foods/cassava-verified.jpg",
+    "alt": "Cassava — illustrative ingredient photograph",
+    "source": "https://commons.wikimedia.org/wiki/File:Harvested_cassava_roots_04.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Denis kasozi",
+    "description": "Harvested cassava roots",
+    "illustrative": true,
+    "imageKind": "ingredient",
+    "visuallyVerified": true
   },
   "cauliflower": {
     "src": "/images/foods/cauliflower.jpg",
@@ -493,14 +521,28 @@
     "illustrative": true
   },
   "garlic": {
-    "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
-    "illustrative": true
+    "src": "/images/foods/garlic-verified.jpg",
+    "alt": "Garlic — illustrative ingredient photograph",
+    "source": "https://commons.wikimedia.org/wiki/File:Garlic_bulbs_and_cloves.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Ivar Leidus",
+    "description": "Garlic bulbs and cloves",
+    "illustrative": true,
+    "imageKind": "ingredient",
+    "visuallyVerified": true
   },
   "ginger": {
-    "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
-    "illustrative": true
+    "src": "/images/foods/ginger-verified.jpg",
+    "alt": "Ginger — illustrative ingredient photograph",
+    "source": "https://commons.wikimedia.org/wiki/File:Ginger_Root_(179871501).jpeg",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "credit": "Mark Turnauckas",
+    "description": "500px provided description: A buddy has recently been extolling the virtues of ginger. I decided to find out what it was all about and got some from a local grocery store.\nThey call it ginger root even though it's actually a rhizome. I don't know a rhizome from a rhinoceros but that's what I read on the internet, so I know it's true.\nIf you've never indulged, here's a tip: a little bit of ginger goes a long way. I grated a piece about the size of the tip of my pinkie finger and put it in my mouth. The sensation was something along the lines of a hot chili pepper and an Altoids. Not bad but not exactly subtle, either. Wowzers.\nAfter recovering from that experiment I sliced a piece about the s",
+    "illustrative": true,
+    "imageKind": "ingredient",
+    "visuallyVerified": true
   },
   "green beans": {
     "src": "/images/foods/green-beans.jpg",
@@ -816,9 +858,16 @@
     "illustrative": true
   },
   "fig": {
-    "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
-    "illustrative": true
+    "src": "/images/foods/fig-verified.jpg",
+    "alt": "Fig — illustrative ingredient photograph",
+    "source": "https://commons.wikimedia.org/wiki/File:Fig_(Ficus_carica)_fruit_halved.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Ivar Leidus",
+    "description": "Halved common fig. Grown in Brazil",
+    "illustrative": true,
+    "imageKind": "ingredient",
+    "visuallyVerified": true
   },
   "grapefruit": {
     "src": "/images/foods/grapefruit.jpg",
@@ -909,9 +958,16 @@
     "illustrative": true
   },
   "papaya": {
-    "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
-    "illustrative": true
+    "src": "/images/foods/papaya-verified.jpg",
+    "alt": "Papaya — illustrative ingredient photograph",
+    "source": "https://commons.wikimedia.org/wiki/File:Papaya_cut_half.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Maksym Kozlenko",
+    "description": "Papaya cut half",
+    "illustrative": true,
+    "imageKind": "ingredient",
+    "visuallyVerified": true
   },
   "passion fruit": {
     "src": "/images/foods/passion-fruit.jpg",
@@ -925,9 +981,16 @@
     "illustrative": true
   },
   "peach": {
-    "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
-    "illustrative": true
+    "src": "/images/foods/peach-verified.jpg",
+    "alt": "Peach — illustrative ingredient photograph",
+    "source": "https://commons.wikimedia.org/wiki/File:Yellow_peach_and_cross_section.jpg",
+    "license": "GFDL 1.2",
+    "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+    "credit": "fir0002  flagstaffotos [at] gmail.com\n\t\tCanon 20D + Sigma 150mm f/2.8",
+    "description": "Yellow peach and its cross section isolated on a white background",
+    "illustrative": true,
+    "imageKind": "ingredient",
+    "visuallyVerified": true
   },
   "pear": {
     "src": "/images/foods/pear.jpg",
@@ -1078,19 +1141,40 @@
     "illustrative": true
   },
   "cloves": {
-    "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
-    "illustrative": true
+    "src": "/images/foods/cloves-verified.jpg",
+    "alt": "Cloves — illustrative ingredient photograph",
+    "source": "https://commons.wikimedia.org/wiki/File:Cloves_on_wood_surface.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "FunkyMonkey MP",
+    "description": "Dried cloves on wooden surface",
+    "illustrative": true,
+    "imageKind": "ingredient",
+    "visuallyVerified": true
   },
   "coriander": {
-    "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
-    "illustrative": true
+    "src": "/images/foods/coriander-verified.jpg",
+    "alt": "Coriander — illustrative ingredient photograph",
+    "source": "https://commons.wikimedia.org/wiki/File:Coriander_Seeds.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Sanjay Acharya",
+    "description": "Seeds of the Coriander (Coriandrum sativum) Plant. Size of each seed is about 3.5 mm x 5 mm.",
+    "illustrative": true,
+    "imageKind": "ingredient",
+    "visuallyVerified": true
   },
   "fenugreek": {
-    "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
-    "illustrative": true
+    "src": "/images/foods/fenugreek-verified.jpg",
+    "alt": "Fenugreek — illustrative ingredient photograph",
+    "source": "https://commons.wikimedia.org/wiki/File:Fenugreek_seeds.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "credit": "Sanjay Acharya",
+    "description": "Fenugreek seeds.",
+    "illustrative": true,
+    "imageKind": "ingredient",
+    "visuallyVerified": true
   },
   "mustard": {
     "src": "/images/foods/mustard.png",
@@ -1127,7 +1211,7 @@
   },
   "pepper": {
     "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
+    "reason": "Ambiguous family name; use food-specific sweet, black, long or powdered pepper image",
     "illustrative": true
   },
   "rosemary": {
@@ -1328,9 +1412,16 @@
     "illustrative": true
   },
   "sardine": {
-    "missing": true,
-    "article": "Sardines as food",
-    "reason": "No Commons photo and license metadata"
+    "src": "/images/foods/sardine-verified.jpg",
+    "alt": "Opened canned sardines with lemon — illustrative ingredient photograph",
+    "source": "https://commons.wikimedia.org/wiki/File:Canned_sardines_with_lemon.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Pannet",
+    "description": "Canned sardines with lemon",
+    "illustrative": true,
+    "imageKind": "ingredient",
+    "visuallyVerified": true
   },
   "tuna": {
     "src": "/images/foods/tuna.png",
@@ -1607,9 +1698,16 @@
     "illustrative": true
   },
   "sugar (cane)": {
-    "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
-    "illustrative": true
+    "src": "/images/foods/sugar-cane-verified.jpg",
+    "alt": "Refined white sugar crystals — illustrative ingredient photograph",
+    "source": "https://commons.wikimedia.org/wiki/File:Granulated_White_Sugar_with_Large_Crystals,_Bright_Side_Light.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Tobias Erbsland",
+    "description": "This photo shows granulated white sugar made from sugar beets with unusual large crystals. The manufacturer rejected the product because the crystals were larger than usual. Some of the shown granules are around two millimetres.\nI made this particular photo with bright direct light from the front, captured using a macro lens. The frontal light reflects inside of the crystals and make them appear white.",
+    "illustrative": true,
+    "imageKind": "ingredient",
+    "visuallyVerified": true
   },
   "sugar cane": {
     "missing": true,
@@ -1617,9 +1715,16 @@
     "illustrative": true
   },
   "salt": {
-    "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
-    "illustrative": true
+    "src": "/images/foods/salt-verified.jpg",
+    "alt": "Salt — illustrative ingredient photograph",
+    "source": "https://commons.wikimedia.org/wiki/File:Table_salt_with_salt_shaker_V1.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Poyraz 72",
+    "description": "Table salt with salt shaker",
+    "illustrative": true,
+    "imageKind": "ingredient",
+    "visuallyVerified": true
   },
   "baking powder": {
     "src": "/images/foods/baking-powder.jpg",
@@ -1633,9 +1738,16 @@
     "illustrative": true
   },
   "yeast": {
-    "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
-    "illustrative": true
+    "src": "/images/foods/yeast-verified.jpg",
+    "alt": "Instant dry yeast package — illustrative ingredient product photograph",
+    "source": "https://commons.wikimedia.org/wiki/File:Instant_Yeast_package_-_Baker%27s_Corner.jpg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "credit": "Infrogmation",
+    "description": "Packaged Instant Yeast in US home kitchen",
+    "illustrative": true,
+    "imageKind": "ingredient-package",
+    "visuallyVerified": true
   },
   "mayonnaise": {
     "src": "/images/foods/mayonnaise.jpg",
@@ -2797,5 +2909,65 @@
     "illustrative": true,
     "illustratedIngredient": "wheat",
     "recipeIllustration": true
+  },
+  "byFoodId": {
+    "140002": {
+      "src": "/images/foods/pepper-black-verified.jpg",
+      "alt": "Pepper black — illustrative ingredient photograph",
+      "source": "https://commons.wikimedia.org/wiki/File:Black_Peppercorns_(4422070187).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "credit": "Ryan Snyder",
+      "description": "Black Peppercorns",
+      "illustrative": true,
+      "imageKind": "ingredient",
+      "visuallyVerified": true
+    },
+    "140007": {
+      "src": "/images/foods/pepper-red-powder-verified.jpg",
+      "alt": "Pepper red powder — illustrative ingredient photograph",
+      "source": "https://commons.wikimedia.org/wiki/File:Paprika_Powder,_Jan_2026.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Ralff Nestor Nacor",
+      "description": "Paprika Powder, Jan 2026",
+      "illustrative": true,
+      "imageKind": "ingredient",
+      "visuallyVerified": true
+    },
+    "140046": {
+      "src": "/images/foods/pepper-long-verified.jpg",
+      "alt": "Long pepper at left alongside other peppercorns — illustrative ingredient photograph",
+      "source": "https://commons.wikimedia.org/wiki/File:Long,_Pink,_White,_Black_and_Green_Pepper.jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "FunkyMonkey MP",
+      "description": "Long, Pink, White, Black and Green Pepper",
+      "illustrative": true,
+      "imageKind": "ingredient",
+      "visuallyVerified": true
+    },
+    "040021": {
+      "src": "/images/foods/green-peppers.jpg",
+      "alt": "Sweet bell peppers in several colors — illustrative ingredient photograph",
+      "source": "https://commons.wikimedia.org/wiki/File:Green-Yellow-Red-Pepper-2009.jpg",
+      "article": "https://en.wikipedia.org/wiki/Bell_pepper",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Kham Tran - www.khamtran.com",
+      "description": "Green, yellow and red bell peppers from the capsicum annuum plant.",
+      "illustrative": true
+    },
+    "040022": {
+      "src": "/images/foods/green-peppers.jpg",
+      "alt": "Sweet bell peppers in several colors — illustrative ingredient photograph",
+      "source": "https://commons.wikimedia.org/wiki/File:Green-Yellow-Red-Pepper-2009.jpg",
+      "article": "https://en.wikipedia.org/wiki/Bell_pepper",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Kham Tran - www.khamtran.com",
+      "description": "Green, yellow and red bell peppers from the capsicum annuum plant.",
+      "illustrative": true
+    }
   }
 }

@@ -1,111 +1,16 @@
 {
   "entries": 722,
-  "covered": 646,
+  "covered": 678,
   "missing": [
-    {
-      "id": "020003",
-      "name": "Cassava, flour, homemade, raw",
-      "baseName": "cassava"
-    },
-    {
-      "id": "020025",
-      "name": "Cassava, tuber, white flesh, peeled, boiled (as part of a recipe, without salt)",
-      "baseName": "cassava"
-    },
-    {
-      "id": "020024",
-      "name": "Cassava, tuber, white flesh, peeled, boiled, drained (without salt)",
-      "baseName": "cassava"
-    },
-    {
-      "id": "020001",
-      "name": "Cassava, tuber, white flesh, peeled, raw",
-      "baseName": "cassava"
-    },
-    {
-      "id": "020002",
-      "name": "Cassava, tuber, white, peeled, flour, fermented, homemade",
-      "baseName": "cassava"
-    },
-    {
-      "id": "040009",
-      "name": "Garlic, fresh, raw",
-      "baseName": "garlic"
-    },
-    {
-      "id": "040011",
-      "name": "Ginger, root, peeled, fresh, raw",
-      "baseName": "ginger"
-    },
-    {
-      "id": "040022",
-      "name": "Pepper, sweet, green, fresh, raw",
-      "baseName": "pepper"
-    },
-    {
-      "id": "040021",
-      "name": "Pepper, sweet, red, fresh, raw",
-      "baseName": "pepper"
-    },
     {
       "id": "050009",
       "name": "Custard apple, fruit, fresh, raw",
       "baseName": "custard apple"
     },
     {
-      "id": "050011",
-      "name": "Fig, fresh, raw",
-      "baseName": "fig"
-    },
-    {
-      "id": "050025",
-      "name": "Papaya, ripe, fresh, raw",
-      "baseName": "papaya"
-    },
-    {
-      "id": "050027",
-      "name": "Peach, fresh, raw",
-      "baseName": "peach"
-    },
-    {
       "id": "050034",
       "name": "Prickly pear, fruit, fresh, raw",
       "baseName": "prickly pear"
-    },
-    {
-      "id": "060008",
-      "name": "Linseed, whole, dried, raw",
-      "baseName": "linseed"
-    },
-    {
-      "id": "060023",
-      "name": "Linseed, whole, dried, roasted",
-      "baseName": "linseed"
-    },
-    {
-      "id": "060009",
-      "name": "Nuts, mixed nuts, oil roasted, without peanuts, with salt added",
-      "baseName": "nuts"
-    },
-    {
-      "id": "060022",
-      "name": "Sesame seed, kernel, raw",
-      "baseName": "sesame seed"
-    },
-    {
-      "id": "060024",
-      "name": "Sesame seed, kernel, roasted",
-      "baseName": "sesame seed"
-    },
-    {
-      "id": "060021",
-      "name": "Sesame seed, whole, dried, raw",
-      "baseName": "sesame seed"
-    },
-    {
-      "id": "060012",
-      "name": "Sesame seed, whole, dry roasted",
-      "baseName": "sesame seed"
     },
     {
       "id": "070014",
@@ -228,11 +133,6 @@
       "baseName": "camel meat"
     },
     {
-      "id": "090003",
-      "name": "Sardine, whole, with bones, canned in oil, drained",
-      "baseName": "sardine"
-    },
-    {
       "id": "110005",
       "name": "Fish oil, cod liver",
       "baseName": "fish oil"
@@ -256,11 +156,6 @@
       "id": "120006",
       "name": "Cheka, fermented alcoholic beverage, cereal based",
       "baseName": "cheka"
-    },
-    {
-      "id": "120042",
-      "name": "Fenugreek, juice with sugar",
-      "baseName": "fenugreek"
     },
     {
       "id": "120008",
@@ -303,39 +198,9 @@
       "baseName": "vodka or whisky (37.1% v/v alcohol)"
     },
     {
-      "id": "130013",
-      "name": "Sugar (cane), refined",
-      "baseName": "sugar (cane)"
-    },
-    {
       "id": "130011",
       "name": "Sugar cane, juice",
       "baseName": "sugar cane"
-    },
-    {
-      "id": "140009",
-      "name": "Cloves, dried, raw",
-      "baseName": "cloves"
-    },
-    {
-      "id": "140010",
-      "name": "Coriander, seed, dried, raw",
-      "baseName": "coriander"
-    },
-    {
-      "id": "140031",
-      "name": "Fenugreek, whole seed, roasted, flour",
-      "baseName": "fenugreek"
-    },
-    {
-      "id": "140014",
-      "name": "Garlic, with peel, dried",
-      "baseName": "garlic"
-    },
-    {
-      "id": "140015",
-      "name": "Ginger, root, dried, ground",
-      "baseName": "ginger"
     },
     {
       "id": "140053",
@@ -343,34 +208,9 @@
       "baseName": "spice paste from green chilli"
     },
     {
-      "id": "140002",
-      "name": "Pepper, black, dried, raw",
-      "baseName": "pepper"
-    },
-    {
-      "id": "140046",
-      "name": "Pepper, long, dry",
-      "baseName": "pepper"
-    },
-    {
-      "id": "140007",
-      "name": "Pepper, red, dry, powdered",
-      "baseName": "pepper"
-    },
-    {
       "id": "140048",
       "name": "Spice paste from chili, water, onion, spices and salt",
       "baseName": "spice paste from chili"
-    },
-    {
-      "id": "150002",
-      "name": "Salt, table",
-      "baseName": "salt"
-    },
-    {
-      "id": "150004",
-      "name": "Yeast, dry powder",
-      "baseName": "yeast"
     },
     {
       "id": "160008",
@@ -399,5 +239,6 @@
     "pea",
     "vetch (grass pea)",
     "groundnut (peanut)"
-  ]
+  ],
+  "missingCount": 44
 }

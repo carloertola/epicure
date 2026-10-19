@@ -38,13 +38,18 @@ The cPanel account polls the public GitHub `main` branch every minute. No hostin
 
 - Repository checkout: `/home/carloertolanet/repositories/epicure`
 - Deployment state: `/home/carloertolanet/.deployments/epicure`
-- Domain document root: `/home/carloertolanet/.deployments/epicure/current`
+- Public releases: `/home/carloertolanet/epicure-public/releases`
+- Domain document root: `/home/carloertolanet/epicure-public/current`
 - Cron invokes the installed `poll-and-deploy.sh` under a nonblocking file lock.
 - The script fetches `main`, exports only `public/` into a commit-specific release directory, verifies required files, and atomically switches the `current` symlink.
 - Previous releases are preserved. Roll back by switching `current` to an earlier release and pausing the Epicure cron entry while investigating.
 - GitHub Actions checks JavaScript and the calculation/data tests. The hosting poll does not wait for Actions; run checks before pushing. Only trusted maintainers should have write access to `main`.
 
 The installed deployment script is outside the served root. Changes to `deployment/poll-and-deploy.sh` require explicitly updating the installed copy. The script never overwrites other sites, existing cron entries, or user meal data.
+
+The provider manages Cloudflare DNS through Yegara HOST → Package Details → Cloudflare → Sync Zone Editor. cPanel’s local DNS changes need that synchronization because the domain’s authoritative nameservers are Cloudflare’s.
+
+The verified photo catalog covers 678 of the 722 entries, using ingredient-family references and explicit prepared-dish labels. The 44 gaps are listed in `public/data/image-audit.json` and appear as labeled placeholders.
 
 ## Nutrition approach
 
