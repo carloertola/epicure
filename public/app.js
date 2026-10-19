@@ -1,4 +1,4 @@
-import {GROUP_NAMES,group,base,totals,validMeal,recommended,insights,fmt,requiresCooking,portion} from './engine.js';
+import {GROUP_NAMES,group,base,totals,validMeal,recommended,insights,fmt,requiresCooking,portion} from './engine.js?v=1.0.1';
 const $=s=>document.querySelector(s), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let db,foods=[],images={},imageEntries=[],meal=[],beverage='water',goal='balance',query='',category='all',stateFilter='all',sort='featured',page=1,dialogFood=null,dialogTab='overview',mealExpanded=false;
 const PAGE_SIZE=12,app=$('#app'),dialog=$('#food-dialog');

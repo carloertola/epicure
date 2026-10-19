@@ -3,14 +3,9 @@ Options -Indexes
 Header set X-Content-Type-Options "nosniff"
 Header set Referrer-Policy "strict-origin-when-cross-origin"
 Header set X-Frame-Options "SAMEORIGIN"
+Header set Cache-Control "no-cache, max-age=0, must-revalidate"
 Header set Content-Security-Policy "default-src 'self'; img-src 'self' https: data:; style-src 'self'; script-src 'self'; connect-src 'self'; base-uri 'self'; frame-ancestors 'self'; form-action 'self'"
 </IfModule>
 <IfModule mod_deflate.c>
 AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript text/javascript application/json image/svg+xml
-</IfModule>
-<IfModule mod_expires.c>
-ExpiresActive On
-ExpiresByType image/jpeg "access plus 7 days"
-ExpiresByType image/png "access plus 7 days"
-ExpiresByType image/webp "access plus 7 days"
 </IfModule>

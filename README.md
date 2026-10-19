@@ -43,6 +43,7 @@ The cPanel account polls the public GitHub `main` branch every minute. No hostin
 - Cron invokes the installed `poll-and-deploy.sh` under a nonblocking file lock.
 - The script fetches `main`, exports only `public/` into a commit-specific release directory, verifies required files, and atomically switches the `current` symlink.
 - Previous releases are preserved. Roll back by switching `current` to an earlier release and pausing the Epicure cron entry while investigating.
+- Public responses use revalidation headers so a successful update is not hidden by stale browser or CDN assets.
 - GitHub Actions checks JavaScript and the calculation/data tests. The hosting poll does not wait for Actions; run checks before pushing. Only trusted maintainers should have write access to `main`.
 
 The installed deployment script is outside the served root. Changes to `deployment/poll-and-deploy.sh` require explicitly updating the installed copy. The script never overwrites other sites, existing cron entries, or user meal data.
