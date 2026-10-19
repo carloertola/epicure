@@ -1,0 +1,13 @@
+node_modules/
+tmp/
+source/extracted.txt
+source/contact*.jpg
+source/image-candidates/
+public/data/image-additions.json
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.zip
+*.tar.gz

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Epicure — Good food. Better together.</title>
+  <meta name="description" content="Discover Ethiopian ingredients, build a thoughtful meal, and understand the nutrients and food pairings on your plate. Based on the Ethiopian Food Composition Table 2025.">
+  <meta name="theme-color" content="#344c36"><link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <link rel="stylesheet" href="style.css"><script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="header"><a class="brand" href="#explore" aria-label="Epicure home"><img src="assets/logo.svg" width="40" height="40" alt=""><span>epicure<span class="brand-dot">.</span></span></a>
+    <nav aria-label="Main navigation"><a href="#explore" class="active">Explore foods</a><a href="#studio">Meal studio <span id="nav-count">0</span></a><a href="#kitchen">Kitchen wisdom</a></nav>
+    <a class="source-pill" href="#sources"><span class="status-dot"></span> Rooted in evidence <span>↗</span></a>
+  </header>
+  <main id="app"><section class="loading"><span class="spinner"></span> Opening the pantry…</section></main>
+  <footer><a class="brand" href="#explore"><img src="assets/logo.svg" width="30" height="30" alt=""><span>epicure.</span></a><p>“Let thy food be thy medicine, and thy medicine be thy food”</p><a href="#sources">Sources & approach ↗</a><small>Food knowledge for everyday life. Educational guidance, not medical treatment.</small></footer>
+  <dialog id="food-dialog" aria-labelledby="dialog-title"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript><p>This meal builder needs JavaScript. Enable JavaScript to explore the food table.</p></noscript>
+</body></html>

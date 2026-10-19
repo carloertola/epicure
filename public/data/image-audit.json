@@ -1,0 +1,403 @@
+{
+  "entries": 722,
+  "covered": 646,
+  "missing": [
+    {
+      "id": "020003",
+      "name": "Cassava, flour, homemade, raw",
+      "baseName": "cassava"
+    },
+    {
+      "id": "020025",
+      "name": "Cassava, tuber, white flesh, peeled, boiled (as part of a recipe, without salt)",
+      "baseName": "cassava"
+    },
+    {
+      "id": "020024",
+      "name": "Cassava, tuber, white flesh, peeled, boiled, drained (without salt)",
+      "baseName": "cassava"
+    },
+    {
+      "id": "020001",
+      "name": "Cassava, tuber, white flesh, peeled, raw",
+      "baseName": "cassava"
+    },
+    {
+      "id": "020002",
+      "name": "Cassava, tuber, white, peeled, flour, fermented, homemade",
+      "baseName": "cassava"
+    },
+    {
+      "id": "040009",
+      "name": "Garlic, fresh, raw",
+      "baseName": "garlic"
+    },
+    {
+      "id": "040011",
+      "name": "Ginger, root, peeled, fresh, raw",
+      "baseName": "ginger"
+    },
+    {
+      "id": "040022",
+      "name": "Pepper, sweet, green, fresh, raw",
+      "baseName": "pepper"
+    },
+    {
+      "id": "040021",
+      "name": "Pepper, sweet, red, fresh, raw",
+      "baseName": "pepper"
+    },
+    {
+      "id": "050009",
+      "name": "Custard apple, fruit, fresh, raw",
+      "baseName": "custard apple"
+    },
+    {
+      "id": "050011",
+      "name": "Fig, fresh, raw",
+      "baseName": "fig"
+    },
+    {
+      "id": "050025",
+      "name": "Papaya, ripe, fresh, raw",
+      "baseName": "papaya"
+    },
+    {
+      "id": "050027",
+      "name": "Peach, fresh, raw",
+      "baseName": "peach"
+    },
+    {
+      "id": "050034",
+      "name": "Prickly pear, fruit, fresh, raw",
+      "baseName": "prickly pear"
+    },
+    {
+      "id": "060008",
+      "name": "Linseed, whole, dried, raw",
+      "baseName": "linseed"
+    },
+    {
+      "id": "060023",
+      "name": "Linseed, whole, dried, roasted",
+      "baseName": "linseed"
+    },
+    {
+      "id": "060009",
+      "name": "Nuts, mixed nuts, oil roasted, without peanuts, with salt added",
+      "baseName": "nuts"
+    },
+    {
+      "id": "060022",
+      "name": "Sesame seed, kernel, raw",
+      "baseName": "sesame seed"
+    },
+    {
+      "id": "060024",
+      "name": "Sesame seed, kernel, roasted",
+      "baseName": "sesame seed"
+    },
+    {
+      "id": "060021",
+      "name": "Sesame seed, whole, dried, raw",
+      "baseName": "sesame seed"
+    },
+    {
+      "id": "060012",
+      "name": "Sesame seed, whole, dry roasted",
+      "baseName": "sesame seed"
+    },
+    {
+      "id": "070014",
+      "name": "Calf (veal), brain, raw",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070085",
+      "name": "Calf (veal), heart, boiled, as part of a recipe (without salt)",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070084",
+      "name": "Calf (veal), heart, boiled, drained (without salt)",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070015",
+      "name": "Calf (veal), heart, raw",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070088",
+      "name": "Calf (veal), kidney, boiled, drained (without salt)",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070089",
+      "name": "Calf (veal), kidney, grilled (without salt or fat)",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070016",
+      "name": "Calf (veal), kidney, raw",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070090",
+      "name": "Calf (veal), liver, boiled, drained (without salt)",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070092",
+      "name": "Calf (veal), liver, grilled (without salt or fat)",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070017",
+      "name": "Calf (veal), liver, raw",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070082",
+      "name": "Calf (veal), meat, lean, boiled, as part of a recipe (without salt or fat)",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070081",
+      "name": "Calf (veal), meat, lean, boiled, drained (without salt)",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070083",
+      "name": "Calf (veal), meat, lean, grilled (without salt or fat)",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070058",
+      "name": "Calf (veal), meat, lean, raw",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070097",
+      "name": "Calf (veal), tongue, boiled, as part of recipe (without salt)",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070096",
+      "name": "Calf (veal), tongue, boiled, drained (without salt)",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070019",
+      "name": "Calf (veal), tongue, raw",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070094",
+      "name": "Calf (veal), tripe, boiled, as part of a recipe (without salt)",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070093",
+      "name": "Calf (veal), tripe, boiled, drained (without salt)",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070095",
+      "name": "Calf (veal), tripe, grilled (without salt or fat)",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070018",
+      "name": "Calf (veal), tripe, raw",
+      "baseName": "calf (veal)"
+    },
+    {
+      "id": "070098",
+      "name": "Camel meat, fresh, boiled, drained (without salt)",
+      "baseName": "camel meat"
+    },
+    {
+      "id": "070100",
+      "name": "Camel meat, fresh, grilled (without salt or fat)",
+      "baseName": "camel meat"
+    },
+    {
+      "id": "070020",
+      "name": "Camel meat, fresh, raw",
+      "baseName": "camel meat"
+    },
+    {
+      "id": "090003",
+      "name": "Sardine, whole, with bones, canned in oil, drained",
+      "baseName": "sardine"
+    },
+    {
+      "id": "110005",
+      "name": "Fish oil, cod liver",
+      "baseName": "fish oil"
+    },
+    {
+      "id": "120029",
+      "name": "Abara, fermented alcoholic beverage, cereal based",
+      "baseName": "abara"
+    },
+    {
+      "id": "120003",
+      "name": "Borde, fermented alcoholic beverage, maize based",
+      "baseName": "borde"
+    },
+    {
+      "id": "120019",
+      "name": "Borde, fermented alcoholic beverage, sorghum and millet based",
+      "baseName": "borde"
+    },
+    {
+      "id": "120006",
+      "name": "Cheka, fermented alcoholic beverage, cereal based",
+      "baseName": "cheka"
+    },
+    {
+      "id": "120042",
+      "name": "Fenugreek, juice with sugar",
+      "baseName": "fenugreek"
+    },
+    {
+      "id": "120008",
+      "name": "Gin (47.9% v/v alcohol)",
+      "baseName": "gin (47.9% v/v alcohol)"
+    },
+    {
+      "id": "120034",
+      "name": "Juice from husked, roasted and spiced white barley flour with water and sugar",
+      "baseName": "juice from husked"
+    },
+    {
+      "id": "120014",
+      "name": "Korefe, fermented alcoholic beverage, cereal based",
+      "baseName": "korefe"
+    },
+    {
+      "id": "120018",
+      "name": "Shamita, low-alcoholic beverage, cereal based",
+      "baseName": "shamita"
+    },
+    {
+      "id": "120021",
+      "name": "Tella, fermented alcoholic beverage, cereal based (5.2 % v/v alcohol)",
+      "baseName": "tella"
+    },
+    {
+      "id": "120022",
+      "name": "Vermouth, dry (17.8% v/v alcohol)",
+      "baseName": "vermouth"
+    },
+    {
+      "id": "120023",
+      "name": "Vermouth, sweet (13% v/v alcohol)",
+      "baseName": "vermouth"
+    },
+    {
+      "id": "120028",
+      "name": "Vodka or whisky (37.1% v/v alcohol)",
+      "baseName": "vodka or whisky (37.1% v/v alcohol)"
+    },
+    {
+      "id": "130013",
+      "name": "Sugar (cane), refined",
+      "baseName": "sugar (cane)"
+    },
+    {
+      "id": "130011",
+      "name": "Sugar cane, juice",
+      "baseName": "sugar cane"
+    },
+    {
+      "id": "140009",
+      "name": "Cloves, dried, raw",
+      "baseName": "cloves"
+    },
+    {
+      "id": "140010",
+      "name": "Coriander, seed, dried, raw",
+      "baseName": "coriander"
+    },
+    {
+      "id": "140031",
+      "name": "Fenugreek, whole seed, roasted, flour",
+      "baseName": "fenugreek"
+    },
+    {
+      "id": "140014",
+      "name": "Garlic, with peel, dried",
+      "baseName": "garlic"
+    },
+    {
+      "id": "140015",
+      "name": "Ginger, root, dried, ground",
+      "baseName": "ginger"
+    },
+    {
+      "id": "140053",
+      "name": "Spice paste from green chilli, water, onion, spices and salt",
+      "baseName": "spice paste from green chilli"
+    },
+    {
+      "id": "140002",
+      "name": "Pepper, black, dried, raw",
+      "baseName": "pepper"
+    },
+    {
+      "id": "140046",
+      "name": "Pepper, long, dry",
+      "baseName": "pepper"
+    },
+    {
+      "id": "140007",
+      "name": "Pepper, red, dry, powdered",
+      "baseName": "pepper"
+    },
+    {
+      "id": "140048",
+      "name": "Spice paste from chili, water, onion, spices and salt",
+      "baseName": "spice paste from chili"
+    },
+    {
+      "id": "150002",
+      "name": "Salt, table",
+      "baseName": "salt"
+    },
+    {
+      "id": "150004",
+      "name": "Yeast, dry powder",
+      "baseName": "yeast"
+    },
+    {
+      "id": "160008",
+      "name": "Soup from flaked oats with water, milk and honey",
+      "baseName": "soup from flaked oats with water"
+    },
+    {
+      "id": "160007",
+      "name": "Soup from flaked oats with water, milk, sugar and salt",
+      "baseName": "soup from flaked oats with water"
+    }
+  ],
+  "note": "Photos are illustrative ingredient families; prepared-dish aliases explicitly depict an ingredient, not the recipe. Plant photos may depict the crop. Photos do not confirm cultivar, harvest maturity, edible species or preparation state.",
+  "baseKeysWithPhotos": 229,
+  "visuallyReplacedLeads": [
+    "teff",
+    "emmer wheat",
+    "maize",
+    "millet",
+    "sorghum",
+    "rice",
+    "quinoa",
+    "noodles",
+    "popcorn",
+    "broad beans",
+    "pea",
+    "vetch (grass pea)",
+    "groundnut (peanut)"
+  ]
+}
