@@ -1,4 +1,4 @@
-name: Validate Epicure
+name: Validate Gursha
 on:
   push:
     branches: [main]
@@ -15,4 +15,9 @@ jobs:
           node-version: '22'
       - run: node --check public/app.js
       - run: node --check public/engine.js
+      - run: node --check public/guidance.js
+      - run: node --check public/portions.js
+      - run: node --check public/planner.js
+      - run: node --check public/vault.js
+      - run: node --check public/sw.js
       - run: node --test tests/*.test.mjs

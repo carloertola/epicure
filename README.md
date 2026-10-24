@@ -1,61 +1,100 @@
-# Epicure
+# Gursha
 
-**Good food. Better together.** A minimal food library and meal studio based on the Ethiopian Food Composition Table 2025.
+**Get more from your food.** A simple meal planner using the Ethiopian Food Composition Table 2025, published food-group serving references, and an optional encrypted nutrition journal.
 
-“Let thy food be thy medicine, and thy medicine be thy food”
+## Experience
 
-## Use it
+- Landing page with the supplied Gursha logo, ingredient search, the requested description and **Plan a Meal**.
+- Three steps: diners (age, kid/adult and female/male nutrition reference), ingredients with pairing/spice suggestions, then available equipment and preparation methods.
+- Preparation sequence, household quantities, separate diner portions, calories, macronutrients and micronutrients with explicit data coverage.
+- Saved meal recipes and individual intake entries. Daily, Monday–Sunday weekly, calendar-month, yearly and custom-range totals, filtered by profile.
+- Private storage, locking, encrypted backup export/import, recipe removal and intake correction. No account or meal-data upload.
+- Compact branded footer following the shared structure of Bete Zelan and Voxedu: social links, creator credit, and a legal/accessibility/sources disclosure.
 
-- Site: https://epicure.carloertola.com
-- Browse source food states, search English descriptions and Amharic transliterations, filter categories and preparation, and compare 100 g nutrient values.
-- Select edible gram weights, inspect full meal totals and coverage, and explore transparent protein, fiber, iron and food-group-variety suggestions.
-- Food pairing, cooking and beverage advice links to supporting NIH, FDA and primary research sources.
-- Plates persist in browser local storage. Export JSON or copy a URL that encodes the plate. No account or backend meal collection.
+## Run and verify
 
-## Run locally
-
-No dependencies or build step. Node.js 20 or newer:
+Buildless JavaScript, Node.js 20 or newer, no dependencies:
 
 ```sh
 node scripts/serve.mjs
 node --check public/app.js
+node --check public/engine.js
+node --check public/guidance.js
+node --check public/portions.js
+node --check public/planner.js
+node --check public/vault.js
+node --check public/sw.js
 node --test tests/*.test.mjs
 ```
 
-Open http://127.0.0.1:4173. Serve `public/`, never the repository root.
+Local address: `http://127.0.0.1:4173`. Serve only `public/`. Web Crypto and the optional offline cache need HTTPS or localhost.
 
-## Data provenance
+## Portion model
 
-Ethiopian Public Health Institute (EPHI) and Food and Agriculture Organization of the United Nations (FAO). 2025. *The Ethiopian Food Composition Table 2025.* Addis Ababa, Ethiopia. © EPHI 2025. Reused with acknowledgement under the permission printed in the source PDF. No EPHI or FAO endorsement is implied.
+The Australian Government **Eat for Health** daily standard serves are transcribed by age band and sex, for ages 2+. For each represented food group:
 
-Original PDF: `public/data/source-table.pdf`. Imported data and original value markers: `public/data/foods.json`. The import script and audit document column mapping, source discrepancies and uncertain entries. Bracketed lower-quality values, non-African provenance, missing values and trace markers remain inspectable. Harvest and cooking conditions are included only as described by the source. No invented harvest model, cooking yield or absorption multiplier.
+`diner daily serves × chosen meal fraction ÷ foods in that group × standard serve grams`
 
-Food photographs are ingredient-family references. They are not cultivar, recipe or species verification. Images, original links and individual licenses are in `public/data/images.json`, also displayed on the Sources page. Missing pictures are explicitly labeled. The app's sprout-and-bowl SVG logo is an original design.
+The meal fraction defaults to one third. This allocation is Gursha’s planning convention, not a published personalized meal prescription. The app discloses its references, assumptions, age boundaries and applicability. A standard serve is distinct from a person’s appetite or calorie requirement.
 
-## Automatic deployment
+- Vegetables: 75 g; fresh fruit: 150 g; cooked pulses counted once as protein foods: 150 g; nuts/seeds: 30 g as an occasional protein-food equivalent.
+- Appropriate cooked meat, fish, eggs, tofu, yoghurt and cheese use the published food-specific amounts.
+- Cooked grains use a 100 g planning value within the published 75–120 g range. Bread/flatbread uses 40 g, explicitly a proxy when applied to injera.
+- Oil uses the midpoint of the age/sex allowance range. Spices and avocado use disclosed culinary starting amounts.
+- A food/state without a defensible gram reference requires user-entered edible grams. Milk volume is not silently equated to gram weight.
+- Missing food groups are never compensated for by increasing another group. The meal is not promised to meet every nutritional requirement.
 
-The cPanel account polls the public GitHub `main` branch every minute. No hosting password, API token, webhook secret or GitHub deploy key is required. A successful source push normally appears within about one minute, plus fetch time.
+References:
 
-- Repository checkout: `/home/carloertolanet/repositories/epicure`
+- [Adult daily serves](https://www.eatforhealth.gov.au/food-essentials/how-much-do-we-need-each-day/recommended-number-serves-adults)
+- [Children’s daily serves](https://www.eatforhealth.gov.au/food-essentials/how-much-do-we-need-each-day/recommended-number-serves-children-adolescents-and-toddlers)
+- [Standard serve sizes](https://www.eatforhealth.gov.au/food-essentials/how-much-do-we-need-each-day/serve-sizes)
+
+## Food data and processing
+
+Ethiopian Public Health Institute (EPHI) and FAO. 2025. *The Ethiopian Food Composition Table 2025.* Addis Ababa. © EPHI 2025. Reused with acknowledgement. No endorsement is implied.
+
+The 722 imported food codes remain unchanged, with their original printed values and source pages. Trace, missing and lower-quality markers remain inspectable. Apparent source anomalies are excluded from calculations. `public/data/source-table.pdf`, `foods.json` and the audits retain provenance. Original food photographs remain ingredient-family references with credits/licenses in `images.json`; 678 entries have reference photos and the remainder have labeled placeholders. The Gursha brand image was supplied by the project owner and is used without raster edits.
+
+The processing engine checks selected equipment, rejects unsupported combinations, and preserves food subtype when matching a cooked profile. A raw lean-meat entry cannot silently become a cooked organ-meat entry. Cooked targets must be weighed after preparation; no cooking yield is guessed. If a preparation has no matching nutrient profile, its values are unknown rather than zero. Blending/grinding uses ingredient weight before water and assumes solids are retained. No absorption or retention multiplier is invented.
+
+Where a numeric kJ value is recorded but kcal is absent, `planner.js` converts using 4.184 kJ per kcal, flags the result as derived, and preserves the original data. Individual readings expose both the calculated estimate and original source values.
+
+Pairing rules cover plant iron/vitamin C and carotenoids/dietary fat using disclosed practical thresholds. Sources distinguish food-level human studies, preparation guidance, culinary flavor suggestions and supplement evidence. No universal nutritional score or disease claim is made.
+
+## Private journal
+
+Planning drafts stay in page memory. Opt-in recipes and intake entries are serialized into a single authenticated **AES-256-GCM** ciphertext in browser local storage (`gursha-private-v1`). The key is derived using **PBKDF2-SHA256, 310,000 iterations**, a random 16-byte salt and a new random 12-byte nonce on every save. Keys are non-extractable and kept in memory; passphrases are never stored or uploaded.
+
+The journal locks manually, after ten minutes of inactivity, on another tab’s change, and when leaving/reloading the page. Locking discards decrypted records and planning memory. Writes compare the prior encrypted envelope and use browser Web Locks when available to avoid silently overwriting a newer journal. Storage or quota failures are reported without claiming success.
+
+Encrypted JSON backups can be exported and restored using their original passphrase. Import verifies the encryption envelope and record structure before replacing storage. There is no password reset or server recovery copy. Browser-data clearing, changing origins, or losing the device can remove access. A compromised device or an unlocked screen remains outside the protection of at-rest encryption.
+
+Each logged intake is for a selected diner’s actual portion fraction, not the entire household batch. Nutrient snapshots and their missing/flagged coverage are retained with each entry. All-profile totals are explicitly labeled as combined. The offline cache contains only public app/data/image files, never decrypted meal data.
+
+## Hosting
+
+Intended public address: **https://gursha.carloertola.com**. The existing GitHub repository remains `carloertola/epicure` so the established cPanel polling deployment continues to work. Repository naming is infrastructure, independent of the Gursha product name.
+
+The cPanel account fetches public GitHub `main` every minute and atomically switches the public release symlink. Only `public/` is exported:
+
+- Checkout: `/home/carloertolanet/repositories/epicure`
 - Deployment state: `/home/carloertolanet/.deployments/epicure`
-- Public releases: `/home/carloertolanet/epicure-public/releases`
-- Domain document root: `/home/carloertolanet/epicure-public/current`
-- Cron invokes the installed `poll-and-deploy.sh` under a nonblocking file lock.
-- The script fetches `main`, exports only `public/` into a commit-specific release directory, verifies required files, and atomically switches the `current` symlink.
-- Previous releases are preserved. Roll back by switching `current` to an earlier release and pausing the Epicure cron entry while investigating.
-- Public responses use revalidation headers so a successful update is not hidden by stale browser or CDN assets.
-- GitHub Actions checks JavaScript and the calculation/data tests. The hosting poll does not wait for Actions; run checks before pushing. Only trusted maintainers should have write access to `main`.
+- Releases: `/home/carloertolanet/epicure-public/releases`
+- Document root: `/home/carloertolanet/epicure-public/current`
 
-The installed deployment script is outside the served root. Changes to `deployment/poll-and-deploy.sh` require explicitly updating the installed copy. The script never overwrites other sites, existing cron entries, or user meal data.
+These existing remote paths are retained to preserve the installed cron job. `deployment/poll-and-deploy.sh` documents the deployed script. Previous releases are retained for rollback. GitHub Actions and local tests must pass before pushing because the hosting poll does not wait for CI.
 
-The provider manages Cloudflare DNS through Yegara HOST → Package Details → Cloudflare → Sync Zone Editor. cPanel’s local DNS changes need that synchronization because the domain’s authoritative nameservers are Cloudflare’s.
+The provider’s authoritative Cloudflare DNS requires synchronization through **Yegara HOST → Package Details → Cloudflare → Sync Zone Editor** after cPanel DNS changes. A cPanel domain entry alone does not verify public DNS or TLS. The legacy subdomain should redirect only once Gursha’s DNS, certificate and content are confirmed working.
 
-The verified photo catalog covers 678 of the 722 entries, using ingredient-family references and explicit prepared-dish labels. The 44 gaps are listed in `public/data/image-audit.json` and appear as labeled placeholders.
+## Main modules
 
-## Nutrition approach
+- `app.js`: landing page, wizard, reference readings, preparation result and journal UI.
+- `portions.js`: published serving references and transparent household allocation.
+- `planner.js`: equipment constraints, exact-state matching, preparation sequence, nutrition estimates and calendar aggregation.
+- `vault.js`: encrypted device storage, backup validation and concurrent-write protection.
+- `guidance.js`: evidence-linked pairings, processing tips and culinary spice suggestions.
+- `engine.js`: food groups, validated portions and source-aware arithmetic.
+- `sw.js`: optional public-file offline cache.
 
-Values describe source foods per 100 g edible portion on a fresh-weight basis. Cooked foods and dry raw ingredients use their own profiles. Totals are sums of selected values scaled by actual weights; missing values remain unknown. Suggestions are a transparent heuristic, not an optimized clinical diet. No food is promised to prevent or treat disease.
-
-## Project structure
-
-`public/app.js` renders accessible responsive UI. `public/engine.js` handles calculation, validation and contextual advice. `tests/` verifies nontrivial calculation and safety rules. `scripts/` contains the local server and data/image tooling. `deployment/` contains the hosting script.
+Tests cover source provenance, calculations, serving boundaries, group allocation, equipment constraints, food subtype matching, missing processed data, energy-unit conversion, journal periods, encryption/tamper rejection, backups and concurrent writes.
