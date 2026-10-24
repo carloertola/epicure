@@ -1,4 +1,11 @@
 Options -Indexes
+<IfModule mod_rewrite.c>
+RewriteEngine On
+# Keep an explicit old-origin route available for encrypted journal exports.
+RewriteCond %{HTTP_HOST} ^(www\.)?epicure\.carloertola\.com$ [NC]
+RewriteCond %{QUERY_STRING} !(^|&)legacy=1(&|$) [NC]
+RewriteRule ^(index\.html)?$ https://gursha.carloertola.com/ [R=301,L,NE,QSD]
+</IfModule>
 <IfModule mod_headers.c>
 Header set X-Content-Type-Options "nosniff"
 Header set Referrer-Policy "strict-origin-when-cross-origin"

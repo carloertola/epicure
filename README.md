@@ -74,7 +74,9 @@ Each logged intake is for a selected diner’s actual portion fraction, not the 
 
 ## Hosting
 
-Intended public address: **https://gursha.carloertola.com**. The existing GitHub repository remains `carloertola/epicure` so the established cPanel polling deployment continues to work. Repository naming is infrastructure, independent of the Gursha product name.
+Public address: **https://gursha.carloertola.com**. The existing GitHub repository remains `carloertola/epicure` so the established cPanel polling deployment continues to work. Repository naming is infrastructure, independent of the Gursha product name.
+
+The previous homepage redirects to Gursha. An explicit old-origin journal route, `https://epicure.carloertola.com/?legacy=1#journal`, remains available for unlocking and exporting encrypted backups before restoring them on Gursha. Browser storage cannot move across origins automatically. The meal book links this migration route. Static assets remain available on the old origin so the export page continues to work.
 
 The cPanel account fetches public GitHub `main` every minute and atomically switches the public release symlink. Only `public/` is exported:
 
