@@ -1,6 +1,12 @@
 Options -Indexes
 <IfModule mod_rewrite.c>
 RewriteEngine On
+# Browser cryptography and device storage must use the HTTPS origin.
+RewriteCond %{HTTP_HOST} ^(www\.)?gursha\.carloertola\.com$ [NC]
+RewriteCond %{HTTP:X-Forwarded-Proto} ^http$ [NC,OR]
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP:X-Forwarded-Proto} !^https$ [NC]
+RewriteRule ^ https://gursha.carloertola.com%{REQUEST_URI} [R=301,L,NE]
 # Keep an explicit old-origin route available for encrypted journal exports.
 RewriteCond %{HTTP_HOST} ^(www\.)?epicure\.carloertola\.com$ [NC]
 RewriteCond %{QUERY_STRING} !(^|&)legacy=1(&|$) [NC]
