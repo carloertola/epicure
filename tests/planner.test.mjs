@@ -20,6 +20,14 @@ test('manual portions and legumes are never silently counted as another food gro
   const rows=[{food:f('010103'),profile:null,reference:{group:'manual',grams:null},customGrams:80}];
   assert.deepEqual(allocatePortions(rows,people).map(p=>p.items[0].grams),[80,80]);
 });
+test('specific tofu and ricotta references take precedence over broad food groups',()=>{
+  assert.equal(servingReference(f('030042')).grams,170);
+  assert.equal(servingReference(f('030042')).group,'protein');
+  assert.equal(servingReference(f('100005')).grams,120);
+  assert.equal(servingReference(f('100003')).group,'manual');
+  assert.equal(servingReference(f('100029')).group,'manual');
+  assert.equal(servingReference(f('100021')).group,'manual');
+});
 test('equipment rules block raw beans without cooking and fermentation without both tools',()=>{
   assert.deepEqual(methodsFor(f('030029'),[]),[]);assert.ok(methodsFor(f('030029'),['stove']).some(m=>m.id==='boil'));
   assert.ok(!methodsFor(f('010103'),['fermentation']).some(m=>m.id==='ferment'));assert.ok(methodsFor(f('010103'),['fermentation','stove']).some(m=>m.id==='ferment'));

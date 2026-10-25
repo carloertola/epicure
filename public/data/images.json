@@ -842,9 +842,16 @@
     "illustrative": true
   },
   "custard apple": {
-    "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
-    "illustrative": true
+    "src": "/images/foods/custard-apple-reference.jpg",
+    "alt": "Custard apple, whole and cut open — fruit-family reference",
+    "source": "https://commons.wikimedia.org/wiki/File:Custard-Apple-Cherimoya.jpeg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Tgdileep",
+    "description": "Custard Apple (Cherimoya). Ripe fruit in full and cut in half",
+    "illustrative": true,
+    "visuallyVerified": true,
+    "fit": "cover"
   },
   "date": {
     "src": "/images/foods/date.jpg",
@@ -1037,9 +1044,16 @@
     "illustrative": true
   },
   "prickly pear": {
-    "missing": true,
-    "article": "Prickly pear",
-    "reason": "No Commons photo and license metadata"
+    "src": "/images/foods/prickly-pear-reference.jpg",
+    "alt": "Cut prickly pear fruit with magenta pulp — fruit-family reference",
+    "source": "https://commons.wikimedia.org/wiki/File:03_Preparing_prickly_pear_fruit_-_removing_pulp_from_halved_opuntia_fruit.jpg",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "credit": "Marek Ślusarczyk (Tupungato) Photo portfolio",
+    "description": "Preparing prickly pear fruit. Breaking down pulp from halved opuntia fruit. Plastic cutting board.",
+    "illustrative": true,
+    "visuallyVerified": true,
+    "fit": "cover"
   },
   "tamarind": {
     "src": "/images/foods/tamarind.jpg",
@@ -1292,14 +1306,29 @@
     "illustrative": true
   },
   "calf (veal)": {
-    "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
-    "illustrative": true
+    "src": "/images/foods/veal-illustration.png",
+    "alt": "Raw veal cutlets — AI-generated ingredient illustration",
+    "source": "data/image-illustrations.html#veal",
+    "license": "Project-generated illustration",
+    "licenseUrl": "data/image-illustrations.html#usage",
+    "credit": "Generated for Gursha with OpenAI ImageGen",
+    "description": "AI-generated culinary illustration, not a photograph or a species-identification guide.",
+    "illustrative": true,
+    "generated": true,
+    "visuallyVerified": true,
+    "fit": "contain"
   },
   "camel meat": {
-    "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
-    "illustrative": true
+    "src": "/images/foods/camel-meat-reference.jpg",
+    "alt": "Camel meat — illustrative ingredient photograph",
+    "source": "https://commons.wikimedia.org/wiki/File:Viande_de_chameau.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Olivier Lemoine (https://Photo-Terroir.fr)",
+    "description": "Entrecôte de chameau",
+    "illustrative": true,
+    "visuallyVerified": true,
+    "fit": "cover"
   },
   "chicken": {
     "src": "/images/foods/chicken.jpg",
@@ -1644,9 +1673,16 @@
     "illustrative": true
   },
   "tella": {
-    "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
-    "illustrative": true
+    "src": "/images/foods/tella-reference.jpg",
+    "alt": "Tella in a drinking cup — illustrative cereal-based fermented beverage photograph",
+    "source": "https://commons.wikimedia.org/wiki/File:Lalibella-Tella.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Ji-Elle",
+    "description": "Ethiopie (Lalibela) : tella, bière traditionnelle",
+    "illustrative": true,
+    "visuallyVerified": true,
+    "fit": "cover"
   },
   "carbonated beverage": {
     "src": "/images/foods/carbonated-beverage.jpg",
@@ -1682,9 +1718,16 @@
     "illustrative": true
   },
   "fish oil": {
-    "missing": true,
-    "article": "Fish oil",
-    "reason": "No Commons photo and license metadata"
+    "src": "/images/foods/cod-liver-oil-reference.jpg",
+    "alt": "Cod liver oil bottle — illustrative product reference",
+    "source": "https://commons.wikimedia.org/wiki/File:M%C3%B6ller%27s_cod_liver_oil.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "Rosenborg BK Fan",
+    "description": "This is a flask or little bottle of Möller's cod liver oil, made with love (or kjærlighet) from Norway.",
+    "illustrative": true,
+    "visuallyVerified": true,
+    "fit": "contain"
   },
   "honey": {
     "src": "/images/foods/honey.jpg",
@@ -1710,9 +1753,16 @@
     "visuallyVerified": true
   },
   "sugar cane": {
-    "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
-    "illustrative": true
+    "src": "/images/foods/sugarcane-juice-reference.jpg",
+    "alt": "Glass of sugarcane juice — illustrative beverage photograph",
+    "source": "https://commons.wikimedia.org/wiki/File:Glass_of_sugarcane_juice.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Fgnievinski",
+    "description": "glass of sugarcane juice",
+    "illustrative": true,
+    "visuallyVerified": true,
+    "fit": "cover"
   },
   "salt": {
     "src": "/images/foods/salt-verified.jpg",
@@ -1915,14 +1965,28 @@
     "illustrative": true
   },
   "spice paste from chili": {
-    "missing": true,
-    "article": "Awaze",
-    "reason": "No Commons photo and license metadata"
+    "src": "/images/foods/red-chilli-paste-reference.jpg",
+    "alt": "Red chilli paste (sambal rica) — paste-family reference, not this exact recipe",
+    "source": "https://commons.wikimedia.org/wiki/File:Sambal_rica.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "credit": "Midori",
+    "description": "Sambal rica (stir-fried chili sauce)",
+    "illustrative": true,
+    "visuallyVerified": true,
+    "fit": "cover"
   },
   "spice paste from green chilli": {
-    "missing": true,
-    "reason": "Edible-part photograph awaiting visual verification",
-    "illustrative": true
+    "src": "/images/foods/green-chilli-paste-reference.jpg",
+    "alt": "Green chilli paste (sambal ijo) — paste-family reference, not this exact recipe",
+    "source": "https://commons.wikimedia.org/wiki/File:SAMBAL_IJO.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Windi Utari",
+    "description": "BAHAN :\n- Cabai rawit hijau\n- Cabai besar hijau\n- Bawang putih\n- Terasi\n- Tomat hijau\n\n- Garam, gula, penyedap",
+    "illustrative": true,
+    "visuallyVerified": true,
+    "fit": "cover"
   },
   "hero": {
     "src": "/images/foods/enjera.jpg",
@@ -2968,6 +3032,344 @@
       "credit": "Kham Tran - www.khamtran.com",
       "description": "Green, yellow and red bell peppers from the capsicum annuum plant.",
       "illustrative": true
+    },
+    "070014": {
+      "src": "/images/foods/veal-brain-illustration.png",
+      "alt": "Calf brain — AI-generated culinary ingredient illustration",
+      "source": "data/image-illustrations.html#veal-brain",
+      "license": "Project-generated illustration",
+      "licenseUrl": "data/image-illustrations.html#usage",
+      "credit": "Generated for Gursha with OpenAI ImageGen",
+      "description": "AI-generated culinary illustration, not a photograph or a species-identification guide.",
+      "illustrative": true,
+      "generated": true,
+      "visuallyVerified": true,
+      "fit": "contain"
+    },
+    "070085": {
+      "src": "/images/foods/veal-heart-reference.jpg",
+      "alt": "Calf heart — organ-family ingredient reference",
+      "source": "https://commons.wikimedia.org/wiki/File:Kalbsherz_ganz,_Licht.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Oliver S.Y.",
+      "description": "Kalbsherz, Seite, mit Schnittführung Fleischerei",
+      "illustrative": true,
+      "visuallyVerified": true,
+      "fit": "cover"
+    },
+    "070084": {
+      "src": "/images/foods/veal-heart-reference.jpg",
+      "alt": "Calf heart — organ-family ingredient reference",
+      "source": "https://commons.wikimedia.org/wiki/File:Kalbsherz_ganz,_Licht.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Oliver S.Y.",
+      "description": "Kalbsherz, Seite, mit Schnittführung Fleischerei",
+      "illustrative": true,
+      "visuallyVerified": true,
+      "fit": "cover"
+    },
+    "070015": {
+      "src": "/images/foods/veal-heart-reference.jpg",
+      "alt": "Calf heart — organ-family ingredient reference",
+      "source": "https://commons.wikimedia.org/wiki/File:Kalbsherz_ganz,_Licht.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Oliver S.Y.",
+      "description": "Kalbsherz, Seite, mit Schnittführung Fleischerei",
+      "illustrative": true,
+      "visuallyVerified": true,
+      "fit": "cover"
+    },
+    "070088": {
+      "src": "/images/foods/veal-kidney-illustration.png",
+      "alt": "Calf kidney with its lobulated shape — AI-generated ingredient illustration",
+      "source": "data/image-illustrations.html#veal-kidney",
+      "license": "Project-generated illustration",
+      "licenseUrl": "data/image-illustrations.html#usage",
+      "credit": "Generated for Gursha with OpenAI ImageGen",
+      "description": "AI-generated culinary illustration, not a photograph or a species-identification guide.",
+      "illustrative": true,
+      "generated": true,
+      "visuallyVerified": true,
+      "fit": "contain"
+    },
+    "070089": {
+      "src": "/images/foods/veal-kidney-illustration.png",
+      "alt": "Calf kidney with its lobulated shape — AI-generated ingredient illustration",
+      "source": "data/image-illustrations.html#veal-kidney",
+      "license": "Project-generated illustration",
+      "licenseUrl": "data/image-illustrations.html#usage",
+      "credit": "Generated for Gursha with OpenAI ImageGen",
+      "description": "AI-generated culinary illustration, not a photograph or a species-identification guide.",
+      "illustrative": true,
+      "generated": true,
+      "visuallyVerified": true,
+      "fit": "contain"
+    },
+    "070016": {
+      "src": "/images/foods/veal-kidney-illustration.png",
+      "alt": "Calf kidney with its lobulated shape — AI-generated ingredient illustration",
+      "source": "data/image-illustrations.html#veal-kidney",
+      "license": "Project-generated illustration",
+      "licenseUrl": "data/image-illustrations.html#usage",
+      "credit": "Generated for Gursha with OpenAI ImageGen",
+      "description": "AI-generated culinary illustration, not a photograph or a species-identification guide.",
+      "illustrative": true,
+      "generated": true,
+      "visuallyVerified": true,
+      "fit": "contain"
+    },
+    "070090": {
+      "src": "/images/foods/veal-liver-reference.jpg",
+      "alt": "Raw veal liver — organ-family ingredient reference",
+      "source": "https://commons.wikimedia.org/wiki/File:Raw_veal_liver,_2010.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "credit": "Javier Lastras",
+      "description": "Rohe Kalbsleber.",
+      "illustrative": true,
+      "visuallyVerified": true,
+      "fit": "cover"
+    },
+    "070092": {
+      "src": "/images/foods/veal-liver-reference.jpg",
+      "alt": "Raw veal liver — organ-family ingredient reference",
+      "source": "https://commons.wikimedia.org/wiki/File:Raw_veal_liver,_2010.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "credit": "Javier Lastras",
+      "description": "Rohe Kalbsleber.",
+      "illustrative": true,
+      "visuallyVerified": true,
+      "fit": "cover"
+    },
+    "070017": {
+      "src": "/images/foods/veal-liver-reference.jpg",
+      "alt": "Raw veal liver — organ-family ingredient reference",
+      "source": "https://commons.wikimedia.org/wiki/File:Raw_veal_liver,_2010.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "credit": "Javier Lastras",
+      "description": "Rohe Kalbsleber.",
+      "illustrative": true,
+      "visuallyVerified": true,
+      "fit": "cover"
+    },
+    "070097": {
+      "src": "/images/foods/veal-tongue-illustration.png",
+      "alt": "Calf tongue — AI-generated culinary ingredient illustration",
+      "source": "data/image-illustrations.html#veal-tongue",
+      "license": "Project-generated illustration",
+      "licenseUrl": "data/image-illustrations.html#usage",
+      "credit": "Generated for Gursha with OpenAI ImageGen",
+      "description": "AI-generated culinary illustration, not a photograph or a species-identification guide.",
+      "illustrative": true,
+      "generated": true,
+      "visuallyVerified": true,
+      "fit": "contain"
+    },
+    "070096": {
+      "src": "/images/foods/veal-tongue-illustration.png",
+      "alt": "Calf tongue — AI-generated culinary ingredient illustration",
+      "source": "data/image-illustrations.html#veal-tongue",
+      "license": "Project-generated illustration",
+      "licenseUrl": "data/image-illustrations.html#usage",
+      "credit": "Generated for Gursha with OpenAI ImageGen",
+      "description": "AI-generated culinary illustration, not a photograph or a species-identification guide.",
+      "illustrative": true,
+      "generated": true,
+      "visuallyVerified": true,
+      "fit": "contain"
+    },
+    "070019": {
+      "src": "/images/foods/veal-tongue-illustration.png",
+      "alt": "Calf tongue — AI-generated culinary ingredient illustration",
+      "source": "data/image-illustrations.html#veal-tongue",
+      "license": "Project-generated illustration",
+      "licenseUrl": "data/image-illustrations.html#usage",
+      "credit": "Generated for Gursha with OpenAI ImageGen",
+      "description": "AI-generated culinary illustration, not a photograph or a species-identification guide.",
+      "illustrative": true,
+      "generated": true,
+      "visuallyVerified": true,
+      "fit": "contain"
+    },
+    "070094": {
+      "src": "/images/foods/tripe-reference.jpg",
+      "alt": "Raw tripe with its folded honeycomb texture — organ-family reference",
+      "source": "https://commons.wikimedia.org/wiki/File:Raw_Tripe.png",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Broughs butchery",
+      "description": "Raw_Tripe",
+      "illustrative": true,
+      "visuallyVerified": true,
+      "fit": "cover"
+    },
+    "070093": {
+      "src": "/images/foods/tripe-reference.jpg",
+      "alt": "Raw tripe with its folded honeycomb texture — organ-family reference",
+      "source": "https://commons.wikimedia.org/wiki/File:Raw_Tripe.png",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Broughs butchery",
+      "description": "Raw_Tripe",
+      "illustrative": true,
+      "visuallyVerified": true,
+      "fit": "cover"
+    },
+    "070095": {
+      "src": "/images/foods/tripe-reference.jpg",
+      "alt": "Raw tripe with its folded honeycomb texture — organ-family reference",
+      "source": "https://commons.wikimedia.org/wiki/File:Raw_Tripe.png",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Broughs butchery",
+      "description": "Raw_Tripe",
+      "illustrative": true,
+      "visuallyVerified": true,
+      "fit": "cover"
+    },
+    "070018": {
+      "src": "/images/foods/tripe-reference.jpg",
+      "alt": "Raw tripe with its folded honeycomb texture — organ-family reference",
+      "source": "https://commons.wikimedia.org/wiki/File:Raw_Tripe.png",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Broughs butchery",
+      "description": "Raw_Tripe",
+      "illustrative": true,
+      "visuallyVerified": true,
+      "fit": "cover"
     }
+  },
+  "gin (47.9% v/v alcohol)": {
+    "src": "/images/foods/gin-reference.jpg",
+    "alt": "Gin bottle — category reference, not the recorded brand or alcohol strength",
+    "source": "https://commons.wikimedia.org/wiki/File:Hendrick%27s_Gin_-_Bottle.png",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "User:Mikaf1fan edit by User:Bruce The Deus",
+    "description": "Bottle of Hendrick's Gin on trasparent background",
+    "illustrative": true,
+    "visuallyVerified": true,
+    "fit": "contain"
+  },
+  "vermouth": {
+    "src": "/images/foods/vermouth-reference.jpg",
+    "alt": "Vermouth bottle — category reference, not the specific sweet/dry variant or alcohol strength",
+    "source": "https://commons.wikimedia.org/wiki/File:Vermouth.jpg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "Wikimedia Commons contributor",
+    "description": "",
+    "illustrative": true,
+    "visuallyVerified": true,
+    "fit": "contain"
+  },
+  "vodka or whisky (37.1% v/v alcohol)": {
+    "src": "/images/foods/whisky-reference.jpg",
+    "alt": "Whisky in a tasting glass — category reference for this vodka-or-whisky entry",
+    "source": "https://commons.wikimedia.org/wiki/File:Glencairn_Whisky_Glass.jpg",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "credit": "Culligan1984 at English Wikipedia",
+    "description": "Photo of a Glencairn Whisky Glass, used by the Scotch Whisky Industry and other whiskey companies in the USA, Canada, Ireland and other nations. It is found at most major whisky festivals around the world and it's design is the property of Glencairn Crystal Ltd, East Kilbride, Scotland.",
+    "illustrative": true,
+    "visuallyVerified": true,
+    "fit": "contain"
+  },
+  "abara": {
+    "src": "/images/foods/tella-reference.jpg",
+    "alt": "Cereal-based fermented beverage reference (tella); not a photograph of this specific abara recipe",
+    "source": "https://commons.wikimedia.org/wiki/File:Lalibella-Tella.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Ji-Elle",
+    "description": "Ethiopie (Lalibela) : tella, bière traditionnelle",
+    "illustrative": true,
+    "visuallyVerified": true,
+    "fit": "cover",
+    "recipeIllustration": true
+  },
+  "borde": {
+    "src": "/images/foods/tella-reference.jpg",
+    "alt": "Cereal-based fermented beverage reference (tella); not a photograph of this specific borde recipe",
+    "source": "https://commons.wikimedia.org/wiki/File:Lalibella-Tella.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Ji-Elle",
+    "description": "Ethiopie (Lalibela) : tella, bière traditionnelle",
+    "illustrative": true,
+    "visuallyVerified": true,
+    "fit": "cover",
+    "recipeIllustration": true
+  },
+  "cheka": {
+    "src": "/images/foods/tella-reference.jpg",
+    "alt": "Cereal-based fermented beverage reference (tella); not a photograph of this specific cheka recipe",
+    "source": "https://commons.wikimedia.org/wiki/File:Lalibella-Tella.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Ji-Elle",
+    "description": "Ethiopie (Lalibela) : tella, bière traditionnelle",
+    "illustrative": true,
+    "visuallyVerified": true,
+    "fit": "cover",
+    "recipeIllustration": true
+  },
+  "korefe": {
+    "src": "/images/foods/tella-reference.jpg",
+    "alt": "Cereal-based fermented beverage reference (tella); not a photograph of this specific korefe recipe",
+    "source": "https://commons.wikimedia.org/wiki/File:Lalibella-Tella.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Ji-Elle",
+    "description": "Ethiopie (Lalibela) : tella, bière traditionnelle",
+    "illustrative": true,
+    "visuallyVerified": true,
+    "fit": "cover",
+    "recipeIllustration": true
+  },
+  "shamita": {
+    "src": "/images/foods/tella-reference.jpg",
+    "alt": "Cereal-based fermented beverage reference (tella); not a photograph of this specific shamita recipe",
+    "source": "https://commons.wikimedia.org/wiki/File:Lalibella-Tella.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Ji-Elle",
+    "description": "Ethiopie (Lalibela) : tella, bière traditionnelle",
+    "illustrative": true,
+    "visuallyVerified": true,
+    "fit": "cover",
+    "recipeIllustration": true
+  },
+  "juice from husked": {
+    "src": "/images/foods/barley.jpg",
+    "alt": "Illustrative barley ingredient; not a photograph of this specific drink or soup",
+    "source": "https://commons.wikimedia.org/wiki/File:Barley_grains.jpg",
+    "article": "https://en.wikipedia.org/wiki/Pearl_barley",
+    "license": "CC BY-SA 2.0 kr",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/kr/deed.en",
+    "credit": "국립국어원",
+    "description": "barley grains",
+    "illustrative": true,
+    "illustratedIngredient": "barley",
+    "recipeIllustration": true
+  },
+  "soup from flaked oats with water": {
+    "src": "/images/foods/oats.jpg",
+    "alt": "Illustrative oats ingredient; not a photograph of this specific drink or soup",
+    "source": "https://commons.wikimedia.org/wiki/File:Rolled_oats.jpg",
+    "article": "https://en.wikipedia.org/wiki/Rolled_oats",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "en:user:Hankwang",
+    "description": "Rolled oats",
+    "illustrative": true,
+    "illustratedIngredient": "oats",
+    "recipeIllustration": true
   }
 }

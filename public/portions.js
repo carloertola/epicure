@@ -34,6 +34,7 @@ export function servingReference(f,{cooked=false}={}){
   const manual={group:'manual',grams:null,basis:'No matching standard serve. Enter an edible gram amount per diner.'};
   if(/garlic|ginger|chilli|chili/.test(n)||g==='14')return{group:'seasoning',grams:1,basis:'Culinary starting amount, not a recommended nutrient serving.'};
   if(n==='avocado')return{group:'seasoning',grams:30,basis:'Optional culinary amount; avocado is not counted as a fruit serving in this plan.'};
+  if(n==='tofu')return{group:'protein',grams:170,basis:'170 g tofu per standard protein-food serve.'};
   if(/stew|sauce|salad from|samosa|cake|biscuit|ferfer|chechebsa|fetfet|chukame|ice cream/i.test(f.name))return manual;
   if(g==='01'){
     if(/bread|enjera|injera/.test(n))return{group:'grains',grams:40,basis:'40 g bread/flatbread standard serve; applied as a planning proxy to injera.'};
@@ -45,14 +46,17 @@ export function servingReference(f,{cooked=false}={}){
   if(g==='05'&&!/juice|dry|dried/.test(f.name))return{group:'fruit',grams:150,basis:'150 g fresh fruit per standard serve.'};
   if(g==='03')return cookedState&&!/flour|roasted/.test(f.name)?{group:'protein',grams:150,basis:'150 g cooked legumes per protein-food serve; not also counted as vegetables.'}:manual;
   if(g==='06')return{group:'protein',grams:30,basis:'30 g nuts/seeds per occasional protein-food serve. Grind for young children.'};
-  if(n==='tofu')return{group:'protein',grams:170,basis:'170 g tofu per standard protein-food serve.'};
   if(g==='07'&&!/liver|kidney|heart|tongue|brain|tripe|sausage|fatty/.test(f.name)){
     const poultry=/chicken|turkey|duck|poultry/.test(n);return{group:'protein',grams:cookedState?(poultry?80:65):(poultry?100:95),basis:cookedState?`${poultry?80:65} g cooked lean ${poultry?'poultry':'red meat'} per serve.`:`${poultry?100:95} g raw lean meat per serve; raw/cooked weights are not interchangeable.`};
   }
   if(g==='08')return{group:'protein',grams:120,basis:'120 g edible egg (about two large eggs) per standard serve.'};
   if(g==='09')return{group:'protein',grams:cookedState?100:115,basis:`${cookedState?100:115} g ${cookedState?'cooked':'raw'} fish per standard serve.`};
   if(g==='10'&&/yoghurt|yogurt/.test(n))return{group:'dairy',grams:200,basis:'200 g yoghurt per standard dairy serve.'};
-  if(g==='10'&&/cheese/.test(n))return{group:'dairy',grams:/ricotta/.test(n)?120:40,basis:'40 g hard cheese or 120 g ricotta per standard serve; check the selected type.'};
+  if(g==='10'&&/cheese/.test(n)){
+    if(/ricotta/i.test(f.name))return{group:'dairy',grams:120,basis:'120 g ricotta per standard dairy serve.'};
+    if(/hard cheese|cheddar/i.test(f.name))return{group:'dairy',grams:40,basis:'40 g hard cheese per standard dairy serve.'};
+    return manual;
+  }
   if(g==='11'&&n==='oil')return{group:'oil',grams:1,basis:'Age/sex oil allowance in grams, using the midpoint of the published range.'};
   return manual;
 }
