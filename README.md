@@ -4,12 +4,12 @@
 
 ## Experience
 
-- Landing page with the supplied Gursha logo, ingredient search, the requested description and **Plan a Meal**.
+- Landing page with the supplied Gursha logo, ingredient search, the requested description and **Put Together a Meal**.
 - Three steps: diners (age, kid/adult and female/male nutrition reference), ingredients with pairing/spice suggestions, then available equipment and preparation methods.
 - Preparation sequence, household quantities, separate diner portions, calories, macronutrients and micronutrients with explicit data coverage.
 - Saved meal recipes and individual intake entries. Daily, Monday–Sunday weekly, calendar-month, yearly and custom-range totals, filtered by profile.
 - Private storage, locking, encrypted backup export/import, recipe removal and intake correction. No account or meal-data upload.
-- Compact branded footer following the shared structure of Bete Zelan and Voxedu: social links, creator credit, and a legal/accessibility/sources disclosure.
+- Minimal centered footer with a Carlo Ertola creator credit and an adjacent legal/accessibility/sources disclosure.
 
 ## Run and verify
 

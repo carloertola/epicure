@@ -1,5 +1,5 @@
-const CACHE='gursha-app-v3.0.2';
-const CORE=['./','index.html','style.css?v=3.0.2','app.js?v=3.0.2','engine.js','guidance.js','portions.js','planner.js','vault.js','assets/gursha-logo.png','assets/food-placeholder.svg','data/foods.json','data/images.json'];
+const CACHE='gursha-app-v3.0.3';
+const CORE=['./','index.html','style.css?v=3.0.3','app.js?v=3.0.3','engine.js','guidance.js','portions.js','planner.js','vault.js','assets/gursha-logo.png','assets/food-placeholder.svg','data/foods.json','data/images.json'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('gursha-app-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));});
 self.addEventListener('fetch',event=>{
